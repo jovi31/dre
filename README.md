@@ -14,8 +14,16 @@
 - Remover DRE;
 - Inserção de dados;
 
+## OBSERVAÇÃO
+
+Usar o .h com as definições de cabeçalho inseridas, senão ocorre erro.
+
 ## CRONOGRAMA
 
-### 21/03
+### 21/03 (Herik)
+
+- Definição da estrutura Item;
+- Criação do menu inicial;
+- Organização dos arquivos;
 
 
