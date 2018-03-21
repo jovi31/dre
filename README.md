@@ -16,7 +16,8 @@
 
 ## OBSERVAÇÃO
 
-Usar o .h com as definições de cabeçalho inseridas, senão ocorre erro.
+- Usar o .h com as definições de cabeçalho inseridas, senão ocorre erro;
+- Usar função de abertura de arquivo criada no extras.c;
 
 ## CRONOGRAMA
 
