@@ -27,4 +27,14 @@
 - Criação do menu inicial;
 - Organização dos arquivos;
 
+### 22/03 (João Victor - Google Programmer)
+
+#### Módulos criados:
+
+- criarDRE
+- inserirItem
+- lerItem
+- criarArquivo
+- deletarArquivo
+- desejaContinuar
 
