@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 #include<ctype.h>
+#include<locale.h>
 #include"criar.c"
 #include"editar.c"
 #include"remover.c"
@@ -11,18 +12,22 @@
 int main(){
     int op;
 
+    setlocale(LC_ALL, "Portuguese");
+
     do{
         op = menuInicial();
         limpaTela();
 
         switch(op){
             case 1:
+                criarDRE();
             break;
 
             case 2:
             break;
 
             case 3:
+                deletarArquivo();
             break;
 
             case 4:
@@ -36,7 +41,7 @@ int main(){
 
             default:
                 linha();
-                printf("\n -> Opcao invalida!\n");
+                printf("\n -> Opção inválida!\n");
                 linha();
             break;
         }

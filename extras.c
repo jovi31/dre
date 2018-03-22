@@ -4,7 +4,7 @@ int menuInicial(){
     int op;
 
     linha();
-    printf("\t# SISTEMA DE BALANCO PATRIMONIAL");
+    printf("\t# Demonstração do Resultado do Exercício (DRE)");
     linha();
     printf("\n\t (1) Criar DRE");
     printf("\n\t (2) Editar DRE");
@@ -33,6 +33,19 @@ void pausar(){
     printf("\n -> Digite [ENTER] para continuar ...\n");
     linha();
     aux = getchar();
+}
+
+char desejaContinuar(){
+    char op;
+
+    linha();
+    printf("\n -> Deseja continuar (s/n)?: ");
+    scanf("%c", &op);
+    getchar();
+
+    limpaTela();
+
+    return op;
 }
 
 void limpaTela(){
